@@ -1,0 +1,1110 @@
+{
+ "marca": {
+  "nome": "Chapa Bros",
+  "linha1": "CHAPA",
+  "linha2": "BROS",
+  "slogan": "Hambúrgueres que unem pessoas",
+  "descricao": "Hamburgueria artesanal com ingredientes frescos, batatas crocantes, combos e milkshakes. Peça online ou visite a gente!",
+  "rodape": "Hambúrgueres artesanais feitos com amor, pra reunir quem você gosta.",
+  "logo": "",
+  "cor_destaque": "#f7b32b",
+  "cor_sobre_destaque": "#1c1c1c",
+  "cor_escura": "#1a1a1a",
+  "cor_clara": "#f4ebe0",
+  "cor_vermelha": "#d9432f",
+  "fonte_titulo": "Anton",
+  "fonte_manuscrita": "Caveat"
+ },
+ "contato": {
+  "whatsapp": "5511999990000",
+  "telefone": "(11) 99999-0000",
+  "email": "contato@exemplo.com.br",
+  "instagram": "",
+  "facebook": "",
+  "youtube": "",
+  "horario": "Ter a Dom, 11h às 23h",
+  "horario_estruturado": [
+   "Tu-Su 11:00-23:00"
+  ],
+  "endereco_principal": "Rua dos Pinheiros, 1234 — São Paulo, SP"
+ },
+ "site": {
+  "dominio": "",
+  "idioma": "pt-BR",
+  "frete_gratis_acima": 79.9,
+  "aviso_topo": "🍔 Frete grátis em pedidos acima de R$ 79,90 nesta semana!",
+  "aviso_botao": "Aproveitar",
+  "analytics_id": "",
+  "pixel_id": "",
+  "aviso_cookies": false,
+  "moeda": "R$"
+ },
+ "paginas_ativas": {
+  "quiz": true,
+  "como_fazemos": true,
+  "eventos": true,
+  "blog": true,
+  "unidades": true
+ },
+ "hero": {
+  "chamada": "BOA COMIDA. MELHOR HUMOR.",
+  "titulo": [
+   "HAMBÚRGUERES",
+   "QUE UNEM",
+   "PESSOAS"
+  ],
+  "texto": "Blends suculentos, batatas crocantes e sabor inesquecível — feitos com carinho e ingredientes frescos todos os dias.",
+  "foto": "hero.jpg",
+  "alt": "Hambúrguer duplo com cheddar, batatas fritas e refrigerante sobre tábua de madeira",
+  "nota": "Mais queijo,<br/>mais sorrisos!",
+  "botao1": "Peça Online",
+  "botao2": "Ver Cardápio",
+  "destaques": [
+   [
+    "Ingredientes",
+    "frescos"
+   ],
+   [
+    "Opções",
+    "halal/veganas"
+   ],
+   [
+    "Amado por",
+    "10.000+ clientes"
+   ],
+   [
+    "Nota média",
+    "4,8/5"
+   ]
+  ]
+ },
+ "categorias": [
+  {
+   "id": "hamburgueres",
+   "nome": "Hambúrgueres",
+   "foto": "p-classic.jpg"
+  },
+  {
+   "id": "batatas",
+   "nome": "Batatas",
+   "foto": "c-loaded.jpg"
+  },
+  {
+   "id": "wraps",
+   "nome": "Wraps",
+   "foto": "c-wrap.jpg"
+  },
+  {
+   "id": "acompanhamentos",
+   "nome": "Acompanhamentos",
+   "foto": "c-rings.jpg"
+  },
+  {
+   "id": "bebidas",
+   "nome": "Bebidas",
+   "foto": "c-drink.jpg"
+  },
+  {
+   "id": "combos",
+   "nome": "Combos",
+   "foto": "combo.jpg"
+  },
+  {
+   "id": "sobremesas",
+   "nome": "Sobremesas",
+   "foto": "shake.jpg"
+  }
+ ],
+ "pratos": [
+  {
+   "id": "classico",
+   "categoria": "hamburgueres",
+   "nome": "Chapa Clássico",
+   "preco": 29.9,
+   "foto": "p-classic.jpg",
+   "descricao": "Blend 180g, alface, tomate, cheddar e molho da casa.",
+   "etiquetas": [
+    "Mais pedido",
+    "Clássico"
+   ],
+   "perfil": [
+    [
+     "Suculência",
+     5
+    ],
+    [
+     "Crocância",
+     3
+    ],
+    [
+     "Defumado",
+     2
+    ],
+    [
+     "Picância",
+     1
+    ]
+   ],
+   "contem": [
+    "Glúten",
+    "Leite",
+    "Ovo",
+    "Gergelim"
+   ],
+   "combina": [
+    "paprica",
+    "refri",
+    "shake"
+   ],
+   "descricao_longa": "O hambúrguer que começou tudo. Blend de 180g selado na chapa, cheddar derretido, alface e tomate frescos e o molho da casa em pão macio com gergelim."
+  },
+  {
+   "id": "bacon",
+   "categoria": "hamburgueres",
+   "nome": "BBQ Bacon",
+   "preco": 36.9,
+   "foto": "p-bacon.jpg",
+   "descricao": "Bacon crocante, onion rings e barbecue defumado.",
+   "etiquetas": [
+    "Mais pedido",
+    "Defumado"
+   ],
+   "perfil": [
+    [
+     "Suculência",
+     5
+    ],
+    [
+     "Crocância",
+     4
+    ],
+    [
+     "Defumado",
+     5
+    ],
+    [
+     "Picância",
+     1
+    ]
+   ],
+   "contem": [
+    "Glúten",
+    "Leite",
+    "Ovo",
+    "Gergelim"
+   ],
+   "combina": [
+    "rings",
+    "paprica",
+    "refri"
+   ],
+   "descricao_longa": "Para quem gosta de sabor marcante: bacon crocante, onion rings empanados e barbecue defumado sobre o blend de 180g."
+  },
+  {
+   "id": "frango",
+   "categoria": "hamburgueres",
+   "nome": "Frango Picante",
+   "preco": 32.9,
+   "foto": "p-chicken.jpg",
+   "descricao": "Frango empanado crocante, coleslaw e maionese apimentada.",
+   "etiquetas": [
+    "Picante",
+    "Crocante"
+   ],
+   "perfil": [
+    [
+     "Suculência",
+     4
+    ],
+    [
+     "Crocância",
+     5
+    ],
+    [
+     "Defumado",
+     1
+    ],
+    [
+     "Picância",
+     4
+    ]
+   ],
+   "contem": [
+    "Glúten",
+    "Ovo",
+    "Leite",
+    "Gergelim"
+   ],
+   "combina": [
+    "paprica",
+    "refri",
+    "shake"
+   ],
+   "descricao_longa": "Frango empanado bem crocante, coleslaw fresco e maionese apimentada. Picância média, que dá para encarar."
+  },
+  {
+   "id": "duplo",
+   "categoria": "hamburgueres",
+   "nome": "Chapa Duplo",
+   "preco": 38.9,
+   "foto": "hero.jpg",
+   "descricao": "Dois blends de 180g, cheddar derretido, picles e molho especial.",
+   "etiquetas": [
+    "Duplo"
+   ],
+   "perfil": [
+    [
+     "Suculência",
+     5
+    ],
+    [
+     "Crocância",
+     2
+    ],
+    [
+     "Defumado",
+     2
+    ],
+    [
+     "Picância",
+     1
+    ]
+   ],
+   "contem": [
+    "Glúten",
+    "Leite",
+    "Ovo",
+    "Gergelim"
+   ],
+   "combina": [
+    "cheddar",
+    "refri",
+    "rings"
+   ],
+   "descricao_longa": "Dois blends de 180g, cheddar derretido, picles e molho especial. O mais encorpado do cardápio."
+  },
+  {
+   "id": "paprica",
+   "categoria": "batatas",
+   "nome": "Batata Páprica",
+   "preco": 18.9,
+   "foto": "p-fries.jpg",
+   "descricao": "Batatas rústicas temperadas com páprica e ervas.",
+   "etiquetas": [
+    "Mais pedido",
+    "Crocante"
+   ],
+   "perfil": [
+    [
+     "Crocância",
+     5
+    ],
+    [
+     "Picância",
+     2
+    ],
+    [
+     "Defumado",
+     3
+    ],
+    [
+     "Sal",
+     3
+    ]
+   ],
+   "contem": [
+    "Pode conter traços de glúten"
+   ],
+   "combina": [
+    "classico",
+    "refri",
+    "bacon"
+   ],
+   "descricao_longa": "Batatas rústicas fritas até dourar e temperadas com páprica e ervas assim que saem do óleo."
+  },
+  {
+   "id": "cheddar",
+   "categoria": "batatas",
+   "nome": "Batata Cheddar & Bacon",
+   "preco": 26.9,
+   "foto": "c-loaded.jpg",
+   "descricao": "Batatas cobertas com cheddar cremoso e farofa de bacon.",
+   "etiquetas": [
+    "Para dividir"
+   ],
+   "perfil": [
+    [
+     "Cremosidade",
+     5
+    ],
+    [
+     "Crocância",
+     3
+    ],
+    [
+     "Defumado",
+     3
+    ],
+    [
+     "Sal",
+     4
+    ]
+   ],
+   "contem": [
+    "Leite",
+    "Pode conter traços de glúten"
+   ],
+   "combina": [
+    "refri",
+    "frango",
+    "classico"
+   ],
+   "descricao_longa": "Porção generosa de batatas com cheddar cremoso e farofa de bacon. Feita para dividir."
+  },
+  {
+   "id": "wrap",
+   "categoria": "wraps",
+   "nome": "Wrap Crocante",
+   "preco": 24.9,
+   "foto": "c-wrap.jpg",
+   "descricao": "Frango empanado, alface, tomate e molho ranch no pão folha.",
+   "etiquetas": [
+    "Crocante"
+   ],
+   "perfil": [
+    [
+     "Crocância",
+     4
+    ],
+    [
+     "Suculência",
+     3
+    ],
+    [
+     "Picância",
+     1
+    ],
+    [
+     "Frescor",
+     4
+    ]
+   ],
+   "contem": [
+    "Glúten",
+    "Ovo",
+    "Leite"
+   ],
+   "combina": [
+    "paprica",
+    "refri",
+    "rings"
+   ],
+   "descricao_longa": "Frango empanado, alface, tomate e molho ranch enrolados em pão folha grelhado na chapa."
+  },
+  {
+   "id": "rings",
+   "categoria": "acompanhamentos",
+   "nome": "Onion Rings",
+   "preco": 16.9,
+   "foto": "c-rings.jpg",
+   "descricao": "Anéis de cebola empanados, com molho barbecue.",
+   "etiquetas": [
+    "Crocante",
+    "Para dividir"
+   ],
+   "perfil": [
+    [
+     "Crocância",
+     5
+    ],
+    [
+     "Sal",
+     3
+    ],
+    [
+     "Defumado",
+     2
+    ],
+    [
+     "Picância",
+     1
+    ]
+   ],
+   "contem": [
+    "Glúten",
+    "Ovo",
+    "Leite"
+   ],
+   "combina": [
+    "bacon",
+    "refri",
+    "duplo"
+   ],
+   "descricao_longa": "Anéis de cebola empanados e fritos na hora, com molho barbecue para mergulhar."
+  },
+  {
+   "id": "refri",
+   "categoria": "bebidas",
+   "nome": "Refrigerante",
+   "preco": 7.9,
+   "foto": "c-drink.jpg",
+   "descricao": "Lata 350 ml, bem gelada.",
+   "etiquetas": [],
+   "perfil": [],
+   "contem": [],
+   "combina": [
+    "classico",
+    "paprica",
+    "combo"
+   ],
+   "descricao_longa": "Lata de 350 ml, servida bem gelada."
+  },
+  {
+   "id": "combo",
+   "categoria": "combos",
+   "nome": "Combo Chapa",
+   "preco": 44.9,
+   "foto": "combo.jpg",
+   "descricao": "Chapa Clássico + Batata Páprica + refrigerante.",
+   "etiquetas": [
+    "Mais pedido",
+    "Melhor preço"
+   ],
+   "perfil": [
+    [
+     "Suculência",
+     5
+    ],
+    [
+     "Crocância",
+     4
+    ],
+    [
+     "Sal",
+     3
+    ],
+    [
+     "Picância",
+     1
+    ]
+   ],
+   "contem": [
+    "Glúten",
+    "Leite",
+    "Ovo",
+    "Gergelim"
+   ],
+   "combina": [
+    "shake",
+    "rings",
+    "cheddar"
+   ],
+   "descricao_longa": "Chapa Clássico, Batata Páprica e refrigerante juntos, por menos do que os itens separados (R$ 56,70 avulsos)."
+  },
+  {
+   "id": "shake",
+   "categoria": "sobremesas",
+   "nome": "Milkshake de Cookies",
+   "preco": 21.9,
+   "foto": "shake.jpg",
+   "descricao": "Sorvete de baunilha, cookies triturados e calda de chocolate.",
+   "etiquetas": [
+    "Sobremesa"
+   ],
+   "perfil": [
+    [
+     "Doçura",
+     5
+    ],
+    [
+     "Cremosidade",
+     5
+    ],
+    [
+     "Crocância",
+     2
+    ]
+   ],
+   "contem": [
+    "Leite",
+    "Glúten",
+    "Soja"
+   ],
+   "combina": [
+    "paprica",
+    "classico",
+    "combo"
+   ],
+   "descricao_longa": "Sorvete de baunilha batido com cookies triturados e finalizado com calda de chocolate."
+  }
+ ],
+ "mais_vendidos": [
+  "classico",
+  "bacon",
+  "frango",
+  "paprica"
+ ],
+ "filtros_perfil": [
+  "Mais pedido",
+  "Picante",
+  "Defumado",
+  "Crocante",
+  "Para dividir"
+ ],
+ "promo1": {
+  "titulo": [
+   "COMBO",
+   "IT BETTER"
+  ],
+  "texto": "Hambúrguer + Batata + Bebida = Mais felicidade!",
+  "botao": "Explorar combos",
+  "link": "cardapio.html#cat-combos",
+  "foto": "combo.jpg",
+  "alt": "Combo com hambúrguer, batata frita e refrigerante"
+ },
+ "promo2": {
+  "titulo": [
+   "SWEET",
+   "ENDINGS"
+  ],
+  "sub": "Finais doces",
+  "texto": "Toda refeição incrível merece um final ainda mais doce.",
+  "botao": "Ver sobremesas",
+  "link": "cardapio.html#cat-sobremesas",
+  "foto": "shake.jpg",
+  "alt": "Milkshake de chocolate com biscoitos e chantilly",
+  "nota": "Felicidade<br/>vem em<br/>colheradas ♡"
+ },
+ "diferenciais": [
+  [
+   "Feito na hora",
+   "Preparado fresquinho, sempre."
+  ],
+  [
+   "Ingredientes de qualidade",
+   "Só o melhor, sempre."
+  ],
+  [
+   "Ambiente agradável",
+   "Um lugar pra curtir e relaxar."
+  ],
+  [
+   "Comida para todos",
+   "Opções veganas e muito mais."
+  ]
+ ],
+ "home_historia": {
+  "rotulo": "Nossa história",
+  "titulo": [
+   "Mais que apenas",
+   "hambúrgueres"
+  ],
+  "texto": "A Chapa Bros nasceu de uma ideia simples: comida boa aproxima as pessoas. Da nossa chapa para a sua mesa, a gente capricha em cada mordida pra transformar qualquer dia num dia especial.",
+  "botao": "Conheça nossa história",
+  "foto": "combo.jpg",
+  "alt": "Combo da casa",
+  "nota": "Mesmo burger,<br/>sorrisos maiores"
+ },
+ "depoimentos": {
+  "rotulo": "Gente de verdade, hambúrgueres de verdade",
+  "titulo": "O que dizem nossos clientes",
+  "itens": [
+   {
+    "nome": "Mariana Costa",
+    "texto": "Melhor hambúrguer da cidade! Ingredientes fresquinhos e sabor incrível. Super recomendo!"
+   },
+   {
+    "nome": "Rafael Souza",
+    "texto": "A batata com páprica mudou minha vida. Comida ótima e um clima ainda melhor."
+   },
+   {
+    "nome": "Juliana Lima",
+    "texto": "Atendimento simpático, lugar aconchegante e o BBQ Bacon é surreal."
+   },
+   {
+    "nome": "Pedro Almeida",
+    "texto": "Peço toda sexta com a família. Chega quentinho e sempre caprichado!"
+   }
+  ]
+ },
+ "chamada_whatsapp": {
+  "titulo": "Receba ofertas exclusivas e novidades",
+  "texto": "Chame a gente no WhatsApp e entre na lista de ofertas.",
+  "botao": "Entrar na lista",
+  "mensagem": "Olá! Quero receber as ofertas e novidades.",
+  "foto1": "p-fries.jpg",
+  "foto2": "p-classic.jpg"
+ },
+ "textos": {
+  "cta_titulo": "Bateu a fome?",
+  "cta_texto": "Peça online e receba quentinho, ou passe numa das unidades.",
+  "cta_botao": "Ver cardápio",
+  "quiz_chamada": "Sem ideia do que pedir?",
+  "quiz_titulo": "Descubra o seu burger",
+  "quiz_texto": "Cinco perguntas rápidas e a gente indica o lanche com a sua cara.",
+  "quiz_botao": "Fazer o quiz"
+ },
+ "paginas": {
+  "cardapio": {
+   "eyebrow": "Cardápio",
+   "titulo": "FEITO NA CHAPA, NA HORA",
+   "texto": "Escolha, adicione ao carrinho e envie o pedido pelo WhatsApp. Frete grátis acima de R$ 79,90.",
+   "foto": "combo.jpg"
+  },
+  "historia": {
+   "eyebrow": "Nossa história",
+   "titulo": "HAMBÚRGUERES QUE UNEM PESSOAS",
+   "texto": "Começou com uma chapa, dois irmãos e a vontade de servir comida boa em um lugar onde todo mundo se sente bem-vindo.",
+   "foto": "hero.jpg"
+  },
+  "unidades": {
+   "eyebrow": "Unidades",
+   "titulo": "VENHA COMER COM A GENTE",
+   "texto": "Três endereços, o mesmo sabor. Escolha o mais perto de você.",
+   "foto": "p-classic.jpg"
+  },
+  "eventos": {
+   "eyebrow": "Eventos",
+   "titulo": "FAÇA SUA FESTA NA CHAPA",
+   "texto": "Cardápio para grupos, entrega e atendimento dedicado para o seu evento.",
+   "foto": "combo.jpg"
+  },
+  "blog": {
+   "eyebrow": "Blog",
+   "titulo": "DA CHAPA PARA A MESA",
+   "texto": "Bastidores da cozinha, dicas e novidades da casa.",
+   "foto": "p-chicken.jpg"
+  },
+  "contato": {
+   "eyebrow": "Contato",
+   "titulo": "FALE COM A GENTE",
+   "texto": "Dúvidas, elogios ou pedidos especiais. A resposta chega pelo WhatsApp.",
+   "foto": "p-bacon.jpg"
+  },
+  "como_fazemos": {
+   "eyebrow": "Como fazemos",
+   "titulo": "DO PÃO À ÚLTIMA CAMADA",
+   "texto": "O sabor vem do ingrediente, da chapa e do cuidado em cada etapa. Veja como um Chapa Bros chega à sua mesa.",
+   "foto": "p-bacon.jpg"
+  },
+  "quiz": {
+   "eyebrow": "Quiz",
+   "titulo": "QUAL É O SEU BURGER?",
+   "texto": "Responda cinco perguntas e veja o lanche que tem a ver com o seu jeito de comer.",
+   "foto": "hero.jpg"
+  },
+  "politica": {
+   "eyebrow": "Legal",
+   "titulo": "PRIVACIDADE E TERMOS",
+   "texto": "Como tratamos os dados deste site.",
+   "foto": "hero.jpg"
+  }
+ },
+ "historia": {
+  "rotulo": "Por que Chapa Bros",
+  "titulo": "Boa comida, melhor humor",
+  "paragrafos": [
+   "A gente acredita que um hambúrguer fica melhor quando é dividido. Por isso o balcão é aberto, a chapa fica à vista e a casa é feita para sentar com amigos, família ou colegas de trabalho.",
+   "Usamos ingredientes frescos, preparamos tudo no dia e montamos cada lanche na hora. Sem atalho: se ficou bom, é porque levou o tempo certo."
+  ],
+  "foto": "combo.jpg",
+  "alt": "Hambúrguer duplo com cheddar, batata e refrigerante",
+  "pilares_titulo": "Quatro coisas que a gente não negocia",
+  "pilares": [
+   [
+    "Pão",
+    "Macio e levemente tostado na chapa, para segurar o suco do blend sem desmanchar."
+   ],
+   [
+    "Blend",
+    "Carne moída no dia, selada em chapa bem quente para formar crosta e manter o interior suculento."
+   ],
+   [
+    "Molho",
+    "Receita da casa, feita em pequenos lotes todos os dias."
+   ],
+   [
+    "Batata",
+    "Cortada rústica, seca antes de fritar e temperada na saída da fritadeira."
+   ]
+  ]
+ },
+ "unidades": [
+  {
+   "nome": "Pinheiros",
+   "endereco": "Rua dos Pinheiros, 1234 — São Paulo, SP",
+   "horario": "Ter a Dom, 11h às 23h",
+   "telefone": "(11) 99999-0000"
+  },
+  {
+   "nome": "Vila Madalena",
+   "endereco": "Rua Fradique Coutinho, 800 — São Paulo, SP",
+   "horario": "Ter a Dom, 11h às 23h",
+   "telefone": "(11) 99999-0000"
+  },
+  {
+   "nome": "Moema",
+   "endereco": "Av. Ibirapuera, 2000 — São Paulo, SP",
+   "horario": "Ter a Dom, 11h às 23h",
+   "telefone": "(11) 99999-0000"
+  }
+ ],
+ "eventos": {
+  "beneficios": [
+   [
+    "Cardápio flexível",
+    "Monte o menu com a gente, com opções para quem não come carne."
+   ],
+   [
+    "Entrega e montagem",
+    "Levamos tudo pronto ao seu espaço, no horário combinado."
+   ],
+   [
+    "Atendimento dedicado",
+    "Uma pessoa da equipe acompanha o seu evento do início ao fim."
+   ],
+   [
+    "Pedido simples",
+    "Peça orçamento em minutos e receba retorno pelo WhatsApp."
+   ]
+  ],
+  "pacotes": {
+   "Aniversário": [
+    "Reúna a turma em volta da chapa.",
+    [
+     "Mini hambúrgueres e batatas para todos",
+     "Combos infantis sob consulta",
+     "Sobremesa: milkshakes e cookies",
+     "Opções vegetarianas e veganas"
+    ]
+   ],
+   "Corporativo": [
+    "Almoço de equipe sem complicação.",
+    [
+     "Combos individuais embalados",
+     "Entrega e montagem no escritório",
+     "Nota fiscal e pedido em lote",
+     "Horário combinado e pontualidade"
+    ]
+   ],
+   "Em casa": [
+    "Festa em casa, sem ficar na cozinha.",
+    [
+     "Combos para grupos",
+     "Porções de batata e onion rings",
+     "Retirada na unidade ou entrega",
+     "Bebidas geladas incluídas sob consulta"
+    ]
+   ]
+  },
+  "atendimento": "Seg a Sex, 10h às 18h",
+  "resposta": "Em até um dia útil",
+  "tipos": [
+   "Aniversário",
+   "Corporativo",
+   "Em casa",
+   "Outro"
+  ]
+ },
+ "como_fazemos": {
+  "capitulos": [
+   {
+    "id": "pao",
+    "cap": "Capítulo I",
+    "titulo": "Pão",
+    "gancho": "Macio por dentro, tostado por fora.",
+    "texto": "O pão é de massa macia, com gergelim. Passa pela chapa por alguns segundos para ganhar crosta e segurar o suco sem desmanchar.",
+    "foto": "p-classic.jpg"
+   },
+   {
+    "id": "blend",
+    "cap": "Capítulo II",
+    "titulo": "Blend",
+    "gancho": "Carne moída no dia, 180g de suco.",
+    "texto": "O blend é moído em pequenas quantidades, modelado à mão e temperado só na hora de ir para o fogo, para manter a carne solta e suculenta.",
+    "foto": "hero.jpg"
+   },
+   {
+    "id": "chapa",
+    "cap": "Capítulo III",
+    "titulo": "Chapa",
+    "gancho": "Calor alto, tempo curto.",
+    "texto": "A crosta é onde mora o sabor. A chapa fica bem quente para selar rápido, e o queijo derrete em cima do blend ainda na chapa.",
+    "foto": "p-bacon.jpg"
+   },
+   {
+    "id": "montagem",
+    "cap": "Capítulo IV",
+    "titulo": "Montagem",
+    "gancho": "Cada camada tem o seu lugar.",
+    "texto": "Molho embaixo, blend com queijo, depois tomate e alface. O lanche sai pronto e chega à mesa ainda quente.",
+    "foto": "combo.jpg"
+   }
+  ],
+  "compromissos_titulo": "O que você pode esperar",
+  "compromissos": [
+   [
+    "Ingredientes frescos",
+    "Vegetais, molhos e blend preparados no dia."
+   ],
+   [
+    "Feito na hora",
+    "Nada fica esperando embaixo de lâmpada. Cada pedido vai para a chapa quando chega."
+   ],
+   [
+    "Mesa para todos",
+    "Opções veganas e atenção a restrições. Fale com a equipe."
+   ]
+  ]
+ },
+ "blog": [
+  {
+   "slug": "chapa-classico",
+   "titulo": "Como montamos o Chapa Clássico",
+   "foto": "p-classic.jpg",
+   "categoria": "Histórias",
+   "data": "08/10/2026",
+   "resumo": "A ordem das camadas muda o sabor. Veja como o clássico da casa é montado, do pão ao molho.",
+   "paragrafos": [
+    "O Chapa Clássico parece simples, e é por isso que cada detalhe pesa. O pão vai à chapa por alguns segundos para ganhar crosta e não encharcar.",
+    "A ordem faz diferença: molho embaixo, blend com cheddar derretido, depois tomate e alface. A folha fica longe do calor para continuar crocante.",
+    "Por fim, o lanche descansa um instante antes de sair, para o queijo assentar e o primeiro gole de suco não escorrer pelo pulso."
+   ]
+  },
+  {
+   "slug": "batata-paprica",
+   "titulo": "Batata páprica: o segredo é secar antes de fritar",
+   "foto": "p-fries.jpg",
+   "categoria": "Dicas",
+   "data": "01/10/2026",
+   "resumo": "Três passos para uma batata crocante por fora e macia por dentro, em casa ou na nossa cozinha.",
+   "paragrafos": [
+    "Batata crocante começa na água. Depois de cortada, ela descansa em água fria para soltar o amido e, antes de ir para o óleo, precisa estar bem seca.",
+    "Fritar em duas etapas ajuda: primeiro em fogo médio para cozinhar por dentro, depois em fogo alto para dourar.",
+    "O tempero entra assim que a batata sai do óleo, enquanto ainda está quente. A páprica gruda melhor e o aroma se espalha."
+   ]
+  },
+  {
+   "slug": "escolher-combo",
+   "titulo": "Como escolher o combo certo",
+   "foto": "combo.jpg",
+   "categoria": "Dicas",
+   "data": "24/09/2026",
+   "resumo": "Um guia rápido para decidir entre hambúrguer, batata e bebida sem se arrepender.",
+   "paragrafos": [
+    "Se a fome é média, o Combo Chapa resolve: hambúrguer clássico, batata páprica e refrigerante por um preço menor que os itens separados.",
+    "Para dividir, vale pedir dois lanches diferentes e uma porção de onion rings no meio da mesa.",
+    "Pedindo acima de R$ 79,90 o frete é grátis. Com três pessoas à mesa, essa marca costuma chegar rápido."
+   ]
+  },
+  {
+   "slug": "milkshake-novo",
+   "titulo": "Chegou o Milkshake de Cookies",
+   "foto": "shake.jpg",
+   "categoria": "Novidades",
+   "data": "17/09/2026",
+   "resumo": "A sobremesa nova da casa: sorvete, cookies e calda de chocolate batidos na hora.",
+   "paragrafos": [
+    "A nova sobremesa já está no cardápio. É um milkshake cremoso de baunilha batido com cookies triturados e finalizado com calda de chocolate.",
+    "Pedimos para ele ser grosso o bastante para pedir colher, e fácil o bastante para beber no canudo. Fica bom depois de um hambúrguer duplo e melhor ainda dividido.",
+    "Peça junto com o Combo Chapa para fechar o pedido com uma sobremesa."
+   ]
+  }
+ ],
+ "blog_categorias": [
+  "Histórias",
+  "Dicas",
+  "Novidades"
+ ],
+ "faq": [
+  [
+   "Vocês entregam?",
+   "Sim. Faça o pedido pelo carrinho e envie pelo WhatsApp. Frete grátis em pedidos acima de R$ 79,90 nesta semana."
+  ],
+  [
+   "Tem opção vegetariana ou vegana?",
+   "Temos opções veganas. Pergunte à equipe na unidade ou no WhatsApp qual está disponível hoje."
+  ],
+  [
+   "Quais as formas de pagamento?",
+   "Pix, cartão e dinheiro."
+  ],
+  [
+   "Posso reservar mesa?",
+   "Para grupos e eventos, use a página de Eventos ou fale com a unidade."
+  ]
+ ],
+ "pagamentos": [
+  "Pix",
+  "Cartão",
+  "Dinheiro"
+ ],
+ "quiz": {
+  "perguntas": [
+   {
+    "q": "Como foi o seu dia?",
+    "o": [
+     [
+      "Tranquilo",
+      "Sem pressa, mas com fome",
+      {
+       "classico": 2
+      }
+     ],
+     [
+      "Corrido",
+      "Preciso de reforço de verdade",
+      {
+       "duplo": 2
+      }
+     ],
+     [
+      "Animado",
+      "Cheio de energia para gastar",
+      {
+       "frango": 1,
+       "bacon": 1
+      }
+     ]
+    ]
+   },
+   {
+    "q": "Qual é o seu domingo ideal?",
+    "o": [
+     [
+      "Ler ao sol",
+      "Sem hora para nada",
+      {
+       "classico": 2
+      }
+     ],
+     [
+      "Mesa cheia de amigos",
+      "Quanto mais gente, melhor",
+      {
+       "bacon": 1,
+       "duplo": 1
+      }
+     ],
+     [
+      "Explorar um lugar novo",
+      "Sempre atrás de algo diferente",
+      {
+       "frango": 2
+      }
+     ]
+    ]
+   },
+   {
+    "q": "O que não pode faltar na mordida?",
+    "o": [
+     [
+      "Queijo derretido",
+      "Cremoso e acolhedor",
+      {
+       "classico": 1,
+       "duplo": 1
+      }
+     ],
+     [
+      "Crocância",
+      "Que dá aquele barulho",
+      {
+       "frango": 2
+      }
+     ],
+     [
+      "Defumado",
+      "Bacon e barbecue",
+      {
+       "bacon": 2
+      }
+     ]
+    ]
+   },
+   {
+    "q": "Com quem você vem?",
+    "o": [
+     [
+      "Sozinho",
+      "Meu momento",
+      {
+       "classico": 1,
+       "frango": 1
+      }
+     ],
+     [
+      "Com amigos",
+      "Vamos dividir uma batata",
+      {
+       "bacon": 1,
+       "duplo": 1
+      }
+     ],
+     [
+      "Com a família",
+      "Todo mundo se entende",
+      {
+       "classico": 2
+      }
+     ]
+    ]
+   },
+   {
+    "q": "Qual sabor você sempre pede?",
+    "o": [
+     [
+      "Clássico e equilibrado",
+      "Nada de exageros",
+      {
+       "classico": 2
+      }
+     ],
+     [
+      "Defumado e intenso",
+      "Quanto mais sabor, melhor",
+      {
+       "bacon": 2
+      }
+     ],
+     [
+      "Picante",
+      "Gosto de um pouco de ardência",
+      {
+       "frango": 2
+      }
+     ],
+     [
+      "Bem encorpado",
+      "Dois blends, por favor",
+      {
+       "duplo": 2
+      }
+     ]
+    ]
+   }
+  ],
+  "resultados": {
+   "classico": {
+    "titulo": "Você é Chapa Clássico",
+    "texto": "Equilibrado e acolhedor. Você valoriza o que é bem-feito: carne suculenta, queijo derretido e molho da casa.",
+    "combina": "combo"
+   },
+   "bacon": {
+    "titulo": "Você é BBQ Bacon",
+    "texto": "Intenso e marcante. Você quer sabor em cada camada, com bacon crocante, cebola empanada e barbecue defumado.",
+    "combina": "rings"
+   },
+   "frango": {
+    "titulo": "Você é Frango Picante",
+    "texto": "Curioso e animado. Gosta de textura, de crocância e de um toque de picância para dar graça.",
+    "combina": "paprica"
+   },
+   "duplo": {
+    "titulo": "Você é Chapa Duplo",
+    "texto": "Direto e generoso. Quando a fome aperta, você pede dois blends e não olha para trás.",
+    "combina": "cheddar"
+   }
+  }
+ }
+}
