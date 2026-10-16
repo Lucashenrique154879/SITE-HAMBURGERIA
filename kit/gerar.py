@@ -139,7 +139,7 @@ class Gerador:
         url = (dom + '/' + pagina) if dom else ''
         og = (dom + '/' + img) if (dom and img) else ''
         h = '<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>%s</title><meta name="description" content="%s">' % (e(titulo), e(desc))
-        h += '<link rel="icon" href="favicon.ico">'
+        h += '<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="icon" href="favicon.ico" sizes="any"><link rel="apple-touch-icon" href="apple-touch-icon.png">'
         if url: h += '<link rel="canonical" href="%s">' % e(url)
         h += '<meta property="og:title" content="%s"><meta property="og:description" content="%s"><meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="%s">' % (e(titulo), e(desc), e(M['nome']))
         if url: h += '<meta property="og:url" content="%s">' % e(url)
@@ -348,7 +348,7 @@ class Gerador:
     # ---------- arquivos de apoio ----------
     def escrever_apoio(s):
         C, M, S, K = s.C, s.M, s.S, s.K
-        for f in ('site.css', 'site.js', 'quiz.js', 'favicon.ico'): shutil.copy(MOD / f, s.out / f)
+        for f in ('site.css', 'site.js', 'quiz.js', 'favicon.ico', 'favicon.svg', 'apple-touch-icon.png'): shutil.copy(MOD / f, s.out / f)
         shutil.copy(MOD / 'base.css', s.out / 'base.css')
         tema = ':root{--primary:%s;--primary-foreground:%s;--ring:%s;--ink:%s;--cream:%s;--brand-red:%s;--font-display:"%s",sans-serif;--font-hand:"%s",cursive}\nbody{background:var(--background)}\n' % (M['cor_destaque'], M['cor_sobre_destaque'], M['cor_destaque'], M['cor_escura'], M['cor_clara'], M['cor_vermelha'], M['fonte_titulo'], M['fonte_manuscrita'])
         open(s.out / 'tema.css', 'w').write(tema)
